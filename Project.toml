@@ -2,3 +2,6 @@ name = "JML"
 uuid = "c9ea9847-afd4-461a-9b91-ce3b70afd8e6"
 authors = ["Aidan Bailey <aidan.j.bailey@outlook.com>"]
 version = "0.1.0"
+
+[deps]
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
