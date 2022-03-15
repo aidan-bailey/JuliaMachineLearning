@@ -15,4 +15,4 @@ XOR is thus a very simple classification problem.
 
 Showing it is solvable using multi-layer perceptrons was one of the [first](https://en.wikipedia.org/wiki/Perceptrons_(book)) major indicators pointng to the potential of [Artificial Neural Networks](https://en.wikipedia.org/wiki/Artificial_neural_network)(ANNs).
 
-# TODO - Design and Tests
+## TODO - Design and Tests
