@@ -123,9 +123,9 @@ end
 function backpropagate(ffn::FeedForwardNetwork, truth::Array{Int64,1})
     for i in 1:length(ffn.layers)-1;
         outputLayer = ffn.layers[end+1-i]
-        outputValues =
-        inputLayer = ffn.layers[end-i]
-        loss, grad = outputLayer.lossFunction(map(n -> n.x, last(ffn.layers).nodes), truth)
+        #outputValues =
+        #inputLayer = ffn.layers[end-i]
+        #loss, grad = outputLayer.lossFunction(map(n -> n.x, last(ffn.layers).nodes), truth)
     end
 end
 
