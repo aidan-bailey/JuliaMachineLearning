@@ -12,4 +12,4 @@ A collection of common machine learning problems solved in Julia (with [Flux](ht
   - [ ] Gated-Recurrent Unit
   - [ ] Long-Short Term Memory
   - [ ] Transformer
-  - [ ] Convolution Neural Network
+  - [ ] Convolutional Neural Network
