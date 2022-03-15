@@ -4,4 +4,10 @@ authors = ["Aidan Bailey <aidan.j.bailey@outlook.com>"]
 version = "0.1.0"
 
 [deps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
