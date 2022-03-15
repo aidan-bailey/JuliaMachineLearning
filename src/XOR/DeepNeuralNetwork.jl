@@ -31,7 +31,7 @@ if use_gpu
         model = fmap(cu, model)
 end
 
-train_dataloader, test_dataloader = Data.xor_dataloader(use_gpu, batchSize)
+train_dataloader, test_dataloader = Data.xor_dataloaders(use_gpu, batchSize)
 
 @info "TRAINING"
 avgLoss = Utils.trainModel!(model, train_dataloader, learningRate, epochs, loss, optimiser)
