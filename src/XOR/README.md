@@ -1,6 +1,6 @@
 # XOR
 
-The [exclusive-OR](https://en.wikipedia.org/wiki/Exclusive_or) (XOR) is an operation in [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra).
+The _exclusive-OR_ ([XOR](https://en.wikipedia.org/wiki/Exclusive_or)) is an operation in [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra).
 
 In terms of [logic gates](https://en.wikipedia.org/wiki/Logic_gate), it takes in two inputs (0 or 1) and outputs 1 if either (not both) of the inputs are 1. 
 
