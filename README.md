@@ -4,9 +4,9 @@ A collection of common machine learning problems solved in [Julia](https://julia
 
 ## Problems
 
-- [XOR](https://en.wikipedia.org/wiki/XOR_gate)
+- [XOR](https://github.com/aidanjbailey/JuliaMachineLearning/tree/master/src/XOR)
   - [x] [Deep Neural Network](https://github.com/aidanjbailey/JuliaMachineLearning/blob/master/src/XOR/DeepNeuralNetwork.jl)
-- [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
+- [MNIST](https://github.com/aidanjbailey/JuliaMachineLearning/tree/master/src/MNIST)
   - [x] [Deep Neural Network](https://github.com/aidanjbailey/JuliaMachineLearning/blob/master/src/MNIST/DeepNeuralNetwork.jl)
   - [x] [Recurrent Neural Network](https://github.com/aidanjbailey/JuliaMachineLearning/blob/master/src/MNIST/RecurrentNeuralNetwork.jl)
   - [ ] Gated-Recurrent Unit
