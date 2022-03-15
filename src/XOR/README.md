@@ -13,6 +13,6 @@ In terms of [logic gates](https://en.wikipedia.org/wiki/Logic_gate), it takes in
 
 XOR is thus a very simple classification problem.
 
-Showing it is solvable using multi-layer perceptrons was one of the [first](https://en.wikipedia.org/wiki/Perceptrons_(book)) major indicators pointng to the potential of [Artificial Neural Networks](https://en.wikipedia.org/wiki/Artificial_neural_network)(ANNs).
+Showing it is solvable using multi-layer perceptrons was one of the [first](https://en.wikipedia.org/wiki/Perceptrons_(book)) major indicators as to the utility of [Artificial Neural Networks](https://en.wikipedia.org/wiki/Artificial_neural_network) (ANNs).
 
 ## TODO - Design and Tests
