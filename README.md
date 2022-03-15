@@ -4,9 +4,9 @@ A collection of common machine learning problems solved in Julia (with [Flux](ht
 
 ## Problems
 
-- [x] [XOR](https://en.wikipedia.org/wiki/XOR_gate)
+- [XOR](https://en.wikipedia.org/wiki/XOR_gate)
   - [x] Feed-Forward Neural Network
-- [ ] [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
+- [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
   - [x] Feed-Forward Neural Network
   - [x] Recurrent Neural Network
   - [ ] Gated-Recurrent Unit
