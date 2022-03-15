@@ -1,6 +1,6 @@
 # JML
 
-A collection of common machine learning problems solved in Julia (with [Flux](https://fluxml.ai/)).
+A collection of common machine learning problems solved in [Julia](https://julialang.org/) (with [Flux](https://fluxml.ai/)).
 
 ## Problems
 
