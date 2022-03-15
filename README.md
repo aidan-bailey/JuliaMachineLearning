@@ -5,9 +5,9 @@ A collection of common machine learning problems solved in Julia (with [Flux](ht
 ## Problems
 
 - [XOR](https://en.wikipedia.org/wiki/XOR_gate)
-  - [x] Feed-Forward Neural Network
+  - [x] Deep Neural Network
 - [MNIST](https://en.wikipedia.org/wiki/MNIST_database)
-  - [x] Feed-Forward Neural Network
+  - [x] Deep Neural Network
   - [x] Recurrent Neural Network
   - [ ] Gated-Recurrent Unit
   - [ ] Long-Short Term Memory

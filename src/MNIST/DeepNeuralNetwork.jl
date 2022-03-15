@@ -1,4 +1,4 @@
-module FFN
+module DeepNeuralNetwork
 
 include("../Utils.jl")
 include("../Data.jl")
