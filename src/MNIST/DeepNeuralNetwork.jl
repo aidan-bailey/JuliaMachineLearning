@@ -16,12 +16,6 @@ batchSize = 64
 optimiser = Descent
 loss = mse
 
-@info "GPU: $use_gpu"
-@info "Learning rate: $learningRate"
-@info "Batch size: $batchSize"
-@info "Epochs: $epochs"
-@info "Optimiser: $optimiser"
-@info "Loss: $loss"
 
 model = Chain(
     Dense(28 * 28, 32, tanh),
@@ -33,7 +27,21 @@ if use_gpu
     model = fmap(cu, model)
 end
 
+@info Utils.toString("MODEL",
+    architecture = "DNN",
+    gpu = use_gpu,
+    model = model)
+
 train_dataloader, test_dataloader = Data.mnist_dataloaders(use_gpu, batchSize)
+
+@info Utils.toString("HYPERPARAMS",
+    optimiser = optimiser,
+    batchsize = batchSize,
+    learningrate = learningRate,
+    epochs = epochs,
+    trainingsetsize = length(train_dataloader) * batchSize,
+    testsetsize = length(test_dataloader)
+)
 
 @info "TRAINING"
 @time avgLoss = Utils.trainModel!(model, train_dataloader, learningRate, epochs, loss, optimiser)
